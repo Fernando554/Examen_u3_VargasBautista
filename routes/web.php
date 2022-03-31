@@ -36,10 +36,6 @@ Route::get('/unidad1/{id}', [publicacionController::class, 'T_cursos'])->name('T
 Route::get('/register', [RegisterController::class, 'create'])->name('register');
 //metodo post para registro
 Route::post('/register', [RegisterController::class, 'store'])->name('register.store');
-//ruta login
-Route::get('/login', [SessionsController::class, 'create'])->name('login');
-//metodo post para login
-Route::post('/login', [SessionsController::class, 'store'])->name('login.store');
 
 //ruta paraapi
 Route::get('/index2', [ApiController::class, 'index2'])->name('index2');
