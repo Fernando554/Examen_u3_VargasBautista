@@ -4,4 +4,4 @@ Alumno: Fernando Vargas Bautista
 
 Link dominio: https://educanegocios.herokuapp.com/
 
-Link video: 
+Link video: https://youtu.be/hysPzJnSip8
